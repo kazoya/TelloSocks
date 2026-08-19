@@ -28,6 +28,11 @@ export const siteConfig = {
   hoursAr: "ساعات الدوام الداخلي غير منشورة على الموقع",
   addressAr: "الأردن",
   promiseAr: "طلب تاجر تجزئة حسب المقاس واللون — السعر باعتمادك",
+  engine: "تجار ألبسة",
+  gap: "الموقع متجر تجزئة. مسار الجملة للمحلات غير ظاهر.",
+  industry: "جوارب عائلية",
+  hero: "صاحب المحل يريد تشكيلة عائلة لا زوجاً واحداً. المنصة تعدّ الكرتون وأنت تعتمد",
+  websiteHost: "tellosocks.com",
   developer: { nameAr: "م. صهيب الصالح", phone: "962787523192", prefill: "TelloSocks" },
 } as const;
 export function getDiscoveryFormUrl(): string { return readPublic("NEXT_PUBLIC_DISCOVERY_FORM_URL"); }
